@@ -16,7 +16,7 @@ python -m venv venv
 venv\Scripts\activate.bat - для Windows | source venv/bin/activate - для Linux и MacOS
 
 5. В файле .evn заполнить необходимые данные: 
-URL = '<your url> | TOKEN = '<your token>'
+URL = '<your url>' | TOKEN = '<your token>'
  
 6. Установка зависимостей:
 pip install -r requirements.txt
