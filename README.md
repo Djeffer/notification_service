@@ -13,20 +13,17 @@ python -m venv venv
 
 
 4. Активировать окружение: 
-venv\Scripts\activate.bat - для Windows
-source venv/bin/activate - для Linux и MacOS
+venv\Scripts\activate.bat - для Windows | source venv/bin/activate - для Linux и MacOS
 
 5. В файле .evn заполнить необходимые данные: 
-URL = '<your url>
-TOKEN = '<your token>'
+URL = '<your url> | TOKEN = '<your token>'
  
 6. Установка зависимостей:
 pip install -r requirements.txt
 
 
 7. Создать и применить миграции в базу данных:
-python manage.py makemigrations
-python manage.py migrate
+python manage.py makemigrations | python manage.py migrate
 
 8. Запустить сервер
 python manage.py runserver
